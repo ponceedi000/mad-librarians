@@ -46,8 +46,8 @@ Work Plan
 
 ### Wire-Frame
 
-[HOMEPAGE](homepage.png)
-[User Input](form-page.png)
-[Completed User Story](completed-story.png)
-[Contributor Page](contributor-page.png)
-[Stored Stories](saved-stories.png)
+[HOMEPAGE](img/homepage.png)
+[User Input](img/form-page.png)
+[Completed User Story](img/completed-story.png)
+[Contributor Page](img/contributor-page.png)
+[Stored Stories](img/saved-stories.png)
