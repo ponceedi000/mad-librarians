@@ -44,4 +44,10 @@ Work Plan
   * How often will you merge? everyday
   * How will you communicate that it’s time to merge? In lab time or slack.
 
+### Wire-Frame
 
+[HOMEPAGE](homepage.png)
+[User Input](form-page.png)
+[Completed User Story](completed-story.png)
+[Contributor Page](contributor-page.png)
+[Stored Stories](saved-stories.png)
