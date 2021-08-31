@@ -2,7 +2,7 @@
 
 1. We are creating a mvp entitled "Mad Librarians", a website for the purpose of creating user stories. It will contain fun stories with user input, allow saving said stories in local storage, creative logos and clickable pictures to those stories.
 
-2. Solves boredom and everyday life by allowing user's to create fun stories. Our project could also be collaborative, as different user's could see other stories from other user's and share it to their friends. 
+2. Solves boredom and everyday life by allowing user's to create fun stories. Our project could also be collaborative, as different user's could see other stories from other user's and share it to their friends.
 
 ### Author: Carrie Vo, Brandon Mizutani, Aaron Burke, and Ediberto Ponce
 
@@ -51,3 +51,7 @@ Work Plan
 [Completed User Story](img/completed-story.png)
 [Contributor Page](img/contributor-page.png)
 [Stored Stories](img/saved-stories.png)
+
+### Domain Modeling
+
+[Domain Modeling](img/domain-modeling.png)
