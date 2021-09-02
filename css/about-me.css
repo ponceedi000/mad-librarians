@@ -74,6 +74,7 @@ section p {
   margin: 20px;
 }
 
+
 section {
   width: 100%;
 }
@@ -85,6 +86,24 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.names h3{
+  margin: 20px;
+  font-size: 40px;
+  font-family: 'Bangers', cursive;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+}
+.fa-linkedin, .fa-github-square {
+  color: black;
+}
+
 
 .carrie, .brandon, .aaron, .eddie {
   border: 5px solid black;
