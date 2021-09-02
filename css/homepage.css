@@ -44,6 +44,11 @@ nav li {
   font-size: 36px;
 }
 
+li a {
+  text-decoration: none;
+  color:black;
+}
+
 main>h2 {
   font-size: 68px;
   font-family: 'Bangers', cursive;
@@ -75,6 +80,7 @@ main>h2 {
 
 footer {
   background-image: url("../img/POW.png");
+  font-family: 'roboto', cursive;
   background-size: 650px 450px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -85,7 +91,7 @@ footer>h3 {
   flex-direction: row;
   justify-content: center;
   color: #aa1208;
-  font-family: 'Righteous', cursive;
+  font-family: 'roboto', cursive;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -108,7 +114,7 @@ footer section:nth-child(3) {
 footer section:nth-child(3)>h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Righteous', cursive;
+  font-family: 'roboto', cursive;
   font-size: 24px;
 }
 
