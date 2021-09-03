@@ -60,12 +60,14 @@ main>h2 {
   margin:30px;
 }
 
+
 .sectionOne, .sectionTwo {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .sectionOne img, .sectionTwo img  {
@@ -77,6 +79,76 @@ main>h2 {
   margin-bottom: 50px;
   border: 5px solid black;
 }
+
+
+
+
+/* For CSS Flip */
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+   /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* .flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 30px;
+} */
+.flip-card-back {
+  background-color: black;
+  font-size: 60px;
+  font-family: 'Bangers', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+  border-radius: 30px;
+}
+.flip-card-back a {
+  text-decoration: none;
+  color: white;
+}
+/* End of CSS flip */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   background-image: url("../img/POW.png");
