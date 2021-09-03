@@ -60,6 +60,7 @@ function formBuilder(name, termsArray) {
   }
   let button = document.createElement('button');
   button.setAttribute('type', 'submit');
+  button.setAttribute('onclick', 'window.location.href=\'../html/story.html\'');
   button.textContent = 'Create Story';
   form.appendChild(button);
 }
@@ -73,3 +74,18 @@ for (let i=0; i < stories.length; i++) {
 }
 
 formBuilder(storyToRender.name, storyToRender.termsArray);
+
+let form = document.querySelector('form');
+
+function getStoryTerms(event) {
+  event.preventDefault();
+  let storyTermArray = [];
+  let elements = document.getElementById('storyForm').elements;
+  for (let i = 0; i < elements.length -1; i++) {
+    storyTermArray.push(elements[i].value);
+  }
+  let stringfyTerms = JSON.stringify(storyTermArray);
+  localStorage.setItem('storyTerms', stringfyTerms);
+}
+
+form.addEventListener('submit', getStoryTerms);
