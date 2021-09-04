@@ -60,23 +60,51 @@
     margin:30px;
   }
   
-  section div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px;
-    justify-content: space-between;
-  }
-  
-  section p {
+  main section>p{
+    margin: auto;
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 80%;
+    background-color: white;
     font-family: 'roboto', cursive;
-    width: 300px;
-    margin: 20px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
 
+section h1 {
+  font-family: 'roboto', cursive;
+  font-weight: 900;
+  padding: 1.25rem 2.5rem;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: 270px;
+  font-size: 1rem;
+  border-radius: 3.5rem / 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 
-
+  background-color :  #eba914;
+  transition:0.5s;
+}
+section h1:hover {
+  color:white;
+  background-color:#cf1d0f;
+}
+section a {
+  text-decoration: none;
+  color: black;
+}
+section a:hover {
+  color:white;
+}
 
 
 

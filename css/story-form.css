@@ -69,9 +69,9 @@
     border: 5px solid black;
     border-radius: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -88,6 +88,7 @@ label {
   font-family: 'roboto', cursive;
   font-size: 20px;
   width: 50%;
+  text-align: center;
  }
 
  button {
