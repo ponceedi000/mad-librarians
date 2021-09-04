@@ -59,48 +59,45 @@
     padding: 10px;
     margin:30px;
   }
+
+
+main section {
+  width: 80%;
+  margin: auto;
+}
+
+
+table { 
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  margin-top: -10px; /* correct offset on first border spacing if desired */
+}
+td {
+
+  border: solid 1px #000;
+  border-style: solid none;
+   width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 30px;
+  border: 3px solid black;
   
-  section div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px;
-    justify-content: space-between;
-  }
-  
-  section p {
-    font-family: 'roboto', cursive;
-    width: 300px;
-    margin: 20px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  background-color: white;
+  font-family: 'roboto', cursive;
+  font-size: 20px;
+  line-height: 30px;
+}
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 30px; 
+  border-bottom-left-radius: 30px;
+}
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 30px; 
+  border-top-right-radius: 30px; 
+}
 
 footer {
     background-image: url("../img/POW.png");

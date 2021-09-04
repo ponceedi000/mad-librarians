@@ -110,11 +110,6 @@ main>h2 {
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-/* .flip-card-front {
-  background-color: #bbb;
-  color: black;
-  border-radius: 30px;
-} */
 .flip-card-back {
   background-color: black;
   font-size: 60px;
