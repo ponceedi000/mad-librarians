@@ -1,0 +1,236 @@
+* body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  header {
+    background-color: #e07a10;
+    margin-top: 0px;
+  }
+  header h1 {
+    font-size: 140px;
+    font-family: 'Bangers', cursive;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px white ;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  nav li {
+    padding: 15px;
+    margin-right: 40px;
+    font-family: 'Bangers', cursive;
+    font-size: 36px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  main>h2 {
+    font-size: 68px;
+    font-family: 'Bangers', cursive;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px white ;
+    text-align: center;
+    padding: 10px;
+    margin:30px;
+  }
+  
+
+  form {
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+label {
+  margin: 30px 15px 5px 5px;
+  font-family: 'roboto', cursive;
+  font-weight: 800;
+  font-size: 20px;
+
+}
+ input {
+  font-family: 'roboto', cursive;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+ }
+
+ button {
+  font-family: 'roboto', cursive;
+  font-weight: 900;
+  padding: 1.25rem 2.5rem;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 1rem;
+  border-radius: 3.5rem / 100%;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color :  #eba914;
+  transition:0.5s;
+}
+button:hover{
+  color:white;
+  background-color:#cf1d0f;
+}
+
+
+
+
+
+
+
+
+
+ /* button {
+  font-family: 'roboto', cursive;
+  font-weight: 900;
+  padding: 1.25rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 3.5rem / 100%;
+  position: relative;
+  min-width: 15rem;
+  max-width: 90vw;
+  overflow: hidden;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color :  #eba914;
+  transition:0.5s;
+}
+button:hover{
+  color:white;
+  background-color:#cf1d0f;
+} */
+
+
+
+  /* .storyForm {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+  }
+  form {
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+label {
+  margin: 30px 5px 5px 5px;
+  font-family: 'roboto', cursive;
+  font-weight: 800;
+  font-size: 20px;
+}
+ input {
+   text
+  font-family: 'roboto', cursive;
+  font-size: 20px;
+  width:50%;
+ }
+
+ form button {
+   margin-top: 20px;
+   padding: 5px 10px 5px 10px;
+ }  */
+
+
+
+
+
+
+
+
+
+footer {
+    background-image: url("../img/POW.png");
+    font-family: 'roboto', cursive;
+    background-size: 650px 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 125px;
+  }
+  footer>h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #aa1208;
+    font-family: 'roboto', cursive;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  footer>section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer>section a {
+    margin: 0px 10px 0px 10px;
+  }
+  
+  footer section:nth-child(3) { 
+    color: #aa1208;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  footer section:nth-child(3)>h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'roboto', cursive;
+    font-size: 24px;
+  }
+  
+  footer section:nth-child(3)>ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+  }
