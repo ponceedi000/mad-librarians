@@ -62,9 +62,9 @@
   
 
   form {
-    margin: auto;
+    margin-right: 30px;
     padding: 20px;
-    width: 30%;
+    width: 600px;
     background-color: white;
     border: 5px solid black;
     border-radius: 30px;
@@ -111,80 +111,18 @@ button:hover{
   background-color:#cf1d0f;
 }
 
-
-
-
-
-
-
-
-
- /* button {
-  font-family: 'roboto', cursive;
-  font-weight: 900;
-  padding: 1.25rem 2.5rem;
-  font-size: 1rem;
-  border-radius: 3.5rem / 100%;
-  position: relative;
-  min-width: 15rem;
-  max-width: 90vw;
-  overflow: hidden;
-  border: 0;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  background-color :  #eba914;
-  transition:0.5s;
+#glossary {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  margin-bottom: 30px;
 }
-button:hover{
-  color:white;
-  background-color:#cf1d0f;
-} */
-
-
-
-  /* .storyForm {
-      background-color: black;
-      display: flex;
-      justify-content: center;
-  }
-  form {
-    margin: auto;
-    padding: 20px;
-    width: 30%;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-label {
-  margin: 30px 5px 5px 5px;
-  font-family: 'roboto', cursive;
-  font-weight: 800;
-  font-size: 20px;
-}
- input {
-   text
-  font-family: 'roboto', cursive;
-  font-size: 20px;
-  width:50%;
+#glossary img {
+   border: 5px solid black;
+   border-radius: 30px;
+   background-color: white;
+   padding: 15px;
  }
-
- form button {
-   margin-top: 20px;
-   padding: 5px 10px 5px 10px;
- }  */
-
-
-
-
-
-
 
 
 
