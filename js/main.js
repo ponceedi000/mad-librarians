@@ -1,6 +1,6 @@
 'use strict';
 
-let section = document.querySelector('section');
+let main = document.querySelector('main');
 
 function chosenStory(event) {
   let storyName = event.target.getAttribute('id');
@@ -12,4 +12,4 @@ function storeAStory(storyName) {
   localStorage.setItem('chosenStory', storyName);
 }
 
-section.addEventListener('click', chosenStory);
+main.addEventListener('click', chosenStory);

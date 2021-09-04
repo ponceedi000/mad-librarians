@@ -43,19 +43,19 @@ stories.push(new Story (
 
 function formBuilder(name, termsArray) {
   let form = document.getElementById('storyForm');
-  let label = document.createElement('label');
-  label.textContent = name;
-  form.appendChild(label);
+  let h1 = document.createElement('h1');
+  h1.textContent = name;
+  form.appendChild(h1);
 
   for (let i = 0; i < termsArray.length; i++) {
     let label = document.createElement('label');
-    label.setAttribute('for', termsArray[i]);
+    label.setAttribute('for', `${termsArray[i]}-${i}`);
     label.textContent = termsArray[i];
     form.appendChild(label);
     let input = document.createElement('input');
     input.setAttribute('type', 'text');
     input.setAttribute('id', termsArray[i]);
-    input.setAttribute('name', termsArray[i]);
+    input.setAttribute('name', `${termsArray[i]}-${i}`);
     form.appendChild(input);
   }
   let button = document.createElement('button');
