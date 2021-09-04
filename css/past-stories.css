@@ -48,6 +48,11 @@
     text-decoration: none;
     color:black;
   }
+
+  nav li a:hover {
+    color: #AB0E07;
+    transition: 150ms;
+  }
   
   main>h2 {
     font-size: 68px;

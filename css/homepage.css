@@ -49,6 +49,11 @@ li a {
   color:black;
 }
 
+nav li a:hover {
+  color: #AB0E07;
+  transition: 150ms;
+}
+
 main>h2 {
   font-size: 68px;
   font-family: 'Bangers', cursive;
@@ -122,7 +127,12 @@ main>h2 {
 }
 .flip-card-back a {
   text-decoration: none;
-  color: white;
+  color: #e07a10;
+}
+
+.flip-card-back a:hover {
+  color:white;
+  transition: 150ms;
 }
 /* End of CSS flip */
 

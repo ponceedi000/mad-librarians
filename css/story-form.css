@@ -43,6 +43,11 @@
     font-family: 'Bangers', cursive;
     font-size: 36px;
   }
+
+  nav li a:hover {
+    color: #AB0E07;
+    transition: 150ms;
+  }
   
   li a {
     text-decoration: none;
