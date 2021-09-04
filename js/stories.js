@@ -56,11 +56,12 @@ function formBuilder(name, termsArray) {
     input.setAttribute('type', 'text');
     input.setAttribute('id', termsArray[i]);
     input.setAttribute('name', `${termsArray[i]}-${i}`);
+    input.setAttribute('required','');
     form.appendChild(input);
   }
   let button = document.createElement('button');
   button.setAttribute('type', 'submit');
-  button.setAttribute('onclick', 'window.location.href=\'../html/story.html\'');
+  // button.setAttribute('onclick', 'window.location.href=\'../html/story.html\'');
   button.textContent = 'Create Story';
   form.appendChild(button);
 }
@@ -86,6 +87,7 @@ function getStoryTerms(event) {
   }
   let stringfyTerms = JSON.stringify(storyTermArray);
   localStorage.setItem('storyTerms', stringfyTerms);
+  window.location.href='../html/story.html';
 }
 
 form.addEventListener('submit', getStoryTerms);
