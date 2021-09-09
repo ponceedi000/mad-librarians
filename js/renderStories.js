@@ -13,7 +13,7 @@ let termsArray = JSON.parse(storedTerms);
 console.log(termsArray);
 
 function createStarWarsStory(array) {
-  let storyText = `The Power of the Force\n  The Force is a mystical ${array[0]} power. As Jedi Master, Obi-Wan Kenobi once said, “The Force is an energy field, created by all living ${array[1]}, that surrounds us, penetrates us, and binds the ${array[2]} together.” Using the power of the force, a Jedi can do many ${array[3]} things, like using the Force to exercise ${array[4]} control over ${array[5]}-minded ${array[6]}. A jedi can also use the Force to move objects with his or her ${array[7]}. It doesn’t matter how ${array[8]} these objects are; it only matters how ${array[9]} the Jedi believes in the Force. Most importantly, the Force teaches a Jedi to rely on his or her feelings. As Obi-Wan Kenobi told his student, Luke ${array[10]}.`;
+  let storyText = `The Force is a mystical ${array[0]} power. As Jedi Master, Obi-Wan Kenobi once said, “The Force is an energy field, created by all living ${array[1]}, that surrounds us, penetrates us, and binds the ${array[2]} together.” Using the power of the force, a Jedi can do many ${array[3]} things, like using the Force to exercise ${array[4]} control over ${array[5]}-minded ${array[6]}. A jedi can also use the Force to move objects with his or her ${array[7]}. It doesn’t matter how ${array[8]} these objects are; it only matters how ${array[9]} the Jedi believes in the Force. Most importantly, the Force teaches a Jedi to rely on his or her feelings. As Obi-Wan Kenobi told his student, Luke ${array[10]}.`;
   stories.unshift(storyText);
   return storyText;
 }
