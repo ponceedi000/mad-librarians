@@ -29,26 +29,22 @@
     width: 100%;
     padding: 0px;
   }
-  
   nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
-  
+  } 
   nav li {
     padding: 15px;
     margin-right: 40px;
     font-family: 'Bangers', cursive;
     font-size: 36px;
   }
-
   nav li a:hover {
     color: #AB0E07;
     transition: 150ms;
   }
-  
   li a {
     text-decoration: none;
     color:black;
@@ -79,9 +75,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
-
 label {
   margin: 30px 15px 5px 5px;
   font-family: 'roboto', cursive;
@@ -95,6 +88,7 @@ label {
   width: 50%;
   text-align: center;
  }
+
 
  button {
   font-family: 'roboto', cursive;
@@ -128,7 +122,6 @@ button:hover{
    background-color: white;
    padding: 15px;
  }
-
 
 
 footer {

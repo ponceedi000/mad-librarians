@@ -21,6 +21,7 @@ header h1 {
   padding: 10px;
 }
 
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -29,30 +30,27 @@ nav {
   width: 100%;
   padding: 0px;
 }
-
 nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
 nav li {
   padding: 15px;
   margin-right: 40px;
   font-family: 'Bangers', cursive;
   font-size: 36px;
 }
-
 li a {
   text-decoration: none;
   color:black;
 }
-
 nav li a:hover {
   color: #AB0E07;
   transition: 150ms;
 }
+
 
 main>h2 {
   font-size: 68px;
@@ -65,6 +63,7 @@ main>h2 {
   margin:30px;
 }
 
+
 section div {
   display: flex;
   flex-direction: row;
@@ -72,17 +71,15 @@ section div {
   margin: 20px;
   justify-content: space-between;
 }
-
 section p {
   font-family: 'roboto', cursive;
   width: 300px;
   margin: 20px;
 }
-
-
 section {
   width: 100%;
 }
+
 
 .carrie-brandon {
   width: 100%;
@@ -91,14 +88,11 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
 .names h3{
   margin: 20px;
   font-size: 40px;
   font-family: 'Bangers', cursive;
 }
-
-
 .icons {
   display: flex;
   justify-content: center;
@@ -108,8 +102,6 @@ section {
 .fa-linkedin, .fa-github-square {
   color: black;
 }
-
-
 .carrie, .brandon, .aaron, .eddie {
   border: 5px solid black;
   border-radius: 20px;
@@ -117,7 +109,6 @@ section {
   background-color: white;
   padding: 20px;
 }
-
 .aaron-eddie {
   width: 100%;
   display: flex;
@@ -125,11 +116,11 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
 .allBio img {
   border-radius: 50%;
   border: 3px solid black;
 }
+
 
 footer {
   background-image: url("../img/POW.png");
@@ -156,13 +147,11 @@ footer>section {
 footer>section a {
   margin: 0px 10px 0px 10px;
 }
-
 footer section:nth-child(3) { 
   color: #aa1208;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 footer section:nth-child(3)>h3 {
   margin-top: 10px;
@@ -170,7 +159,6 @@ footer section:nth-child(3)>h3 {
   font-family: 'roboto', cursive;
   font-size: 24px;
 }
-
 footer section:nth-child(3)>ul li {
   display: flex;
   flex-direction: row;
